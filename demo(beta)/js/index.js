@@ -52,8 +52,6 @@ $('#input').on('click', function() {
     }
     if (sum > 21) {
         $('#data').append(sum + " Busted!!");
-        $('#input').attr('disabled', 'disabled')
-        $('#halt').attr('disabled', 'disabled')
     }
 });
 
@@ -71,6 +69,4 @@ $('#halt').on('click', function() {
         sum += tem;
     }
     $('#data').append("You've stood on " + sum);
-    $('#input').attr('disabled', 'disabled')
-    $('#halt').attr('disabled', 'disabled')
 });

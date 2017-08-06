@@ -1,0 +1,17 @@
+.jumbotron {
+    /* 設定背景顏色 */
+    background-color: rgb(205, 233, 241);
+    ;
+    /* 設定文字顏色 */
+    color: black;
+}
+
+.col-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#data {
+    height: auto;
+    min-height: 56px;
+}
